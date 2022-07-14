@@ -1,0 +1,20 @@
+{
+    "name": "bz760/my-logger",
+    "description": "My logger",
+    "type": "library",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "bogdan",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyLogger\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*"
+    }
+}
